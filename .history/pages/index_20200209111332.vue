@@ -1,9 +1,9 @@
 <template>
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
-      <a href="https://x-hack.connpass.com/event/164559/">
-        <img width="100%" src="https://connpass-tokyo.s3.amazonaws.com/thumbs/6c/95/6c954d023cee0a7c28bd0a289abeb858.png" alt="Vuetify.js">
-      </a>
+      <div class="text-xs-center">
+        <img src="/v.png" alt="Vuetify.js" class="mb-5" />
+      </div>
       <v-card>
         <v-card-title class="headline">Welcome to the Vuetify + Nuxt.js template</v-card-title>
         <v-card-text>
@@ -25,14 +25,6 @@
           <v-btn color="primary" nuxt to="/inspire">Continue</v-btn>
         </v-card-actions>
       </v-card>
-      <blockquote class="blockquote">
-        XHACK        
-        <footer>
-          <small>
-            <em></em>
-          </small>
-        </footer>
-      </blockquote>
     </v-flex>
   </v-layout>
 </template>

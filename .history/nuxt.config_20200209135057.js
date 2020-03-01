@@ -1,12 +1,9 @@
-export default {
+module.exports = {
   /*
   ** Headers of the page
   */
 
   head: {
-    base: {
-      href: 'router.base'
-    },
     title: 'グルメアプリ',
     meta: [
       { charset: 'utf-8' },
@@ -17,10 +14,10 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Material+Icons' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
-    ]
-  },
-  router: {
-    base: '/vuetify_gourmet/'
+    ],
+    base: {
+      href: 'router.base'
+    }
   },
   plugins: ['@plugins/vuetify'],
   css: [],
@@ -44,5 +41,8 @@ export default {
         })
       }
     }
+  },
+  router: {
+    base: '/vuetify_gourmet/'
   }
 }

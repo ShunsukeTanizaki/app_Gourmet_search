@@ -11,9 +11,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "material-design-icons": "*",
     "nuxt": "^2.2.0",
-    "vuetify": "^2.0.0",
-    "material-design-icons": "*"
+    "vuetify": "^2.0.0"
   },
   "devDependencies": {
     "@mdi/font": "^4.9.95",
